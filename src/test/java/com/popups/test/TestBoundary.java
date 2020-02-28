@@ -32,7 +32,7 @@ public class TestBoundary {
 	    }
 	 
 	  @Test
-	    public void testGender()
+	    public void testEmptyGender()
 	    {
 		  User user=new User();
 	        user.setUserId(1);
@@ -49,7 +49,7 @@ public class TestBoundary {
 	    }
 	  
 	  @Test
-	    public void testUserName()
+	    public void testEmptyUserName()
 	    {
 		  User user=new User();
 	        user.setUserId(1);
